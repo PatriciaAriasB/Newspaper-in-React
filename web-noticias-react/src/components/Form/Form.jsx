@@ -5,8 +5,8 @@ export const Form = () => {
   const initialValue = {
     name: "",
     username: "",
-    new: "",
     email: "",
+    new: "",
   };
 
   const [data, setData] = useState(initialValue);

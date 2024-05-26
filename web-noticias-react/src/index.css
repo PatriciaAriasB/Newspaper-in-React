@@ -3,7 +3,7 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #555; 
+    background-color: #333; 
     overflow: auto; 
     
     li {
@@ -12,13 +12,17 @@ nav {
         display: block;
         color: white;
         text-align: center;
-        padding: 14px 16px; 
+        padding: 25px 16px; 
         text-decoration: none;
+        font-size: 20px; 
         
         &:hover {
           background-color: #333; 
+
+          
         }
       }
     }
   }
 }
+
